@@ -1,0 +1,12 @@
+.article-page {
+  background-image: asset-url('articles-page-background.jpeg');
+  .align-articles-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    .align-article-content {
+      margin-bottom: 20px;
+    }
+  }
+}
